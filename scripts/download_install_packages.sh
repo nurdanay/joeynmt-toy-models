@@ -10,7 +10,9 @@ echo "Make sure this script is executed AFTER you have activated a virtualenv"
 
 # install joeynmt
 
-git clone https://github.com/nurdanay/joeynmt/tree/factors_complete $tools/joeynmt
+git clone https://github.com/nurdanay/joeynmt.git $tools/joeynmt
+git checkout ex4
+git pull
 
 # if necessary: first check out the correct branch:
 
