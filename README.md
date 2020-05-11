@@ -50,7 +50,7 @@ Evaluate a trained model with
 
 | Models   | Embedding size|  BLEU |
 |----------|:-------------:|------:|
-| rnn_wmt16_deen.yaml|  512 | 9.2 |
+| rnn_wmt16_deen.yaml|  512 | 9.1 |
 | rnn_wmt16_factors_concatenate_deen.yaml|    512  | 5.7   |
 | rnn_wmt16_factors_add_deen.yaml | 512 |    5.7 |
 
