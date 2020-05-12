@@ -42,9 +42,13 @@ Then finally train a model:
 
 The training process can be interrupted at any time, and the best checkpoint will always be saved.
 
-Evaluate a trained model with
+Evaluate a trained model for **added** factors with
 
-	./scripts/evaluate.sh
+	./scripts/evaluate_factors_add.sh
+
+Evaluate a trained model for **concatenated** factors with
+
+	./scripts/evaluate_factors_concatenate.sh
 
 # Findings
 
