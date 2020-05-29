@@ -220,8 +220,12 @@ Change the beam size from configs/low_resource_bpe_level_2000.yaml
 
 -get the plot of beam size and BLEU score
 
-    ./scripts/graph_beam.py
+    ./beam_size_graph/graph_beam.py
+    ./beam_size_graph/graph_beam_bar_chart.py
 
 ![alt text](beam_size_graph/beam_size-plot.png)
 
 ![alt text](beam_size_graph/beam_size_bar_chart.png)
+
+
+The model produced the best translation with the beam size 3 and 4. They both got 15.2 Bleu score. After beam size 6, we see a quick decrease in the translation quality which means that the bigger beam size means worse quality. 
