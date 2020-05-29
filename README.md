@@ -110,7 +110,8 @@ Train a bpe level model:
 
 
 
-	# change the settings in config files
+change the settings in config files
+
 	cp low_resource_word_level.yaml low_resource_bpe_level_{vocab-size}.yaml
 
 
