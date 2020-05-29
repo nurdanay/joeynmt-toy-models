@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
 
 
 beam_sizes = [1, 3, 4, 5, 6, 9, 11, 12, 15, 25]
