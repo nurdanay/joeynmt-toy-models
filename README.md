@@ -17,7 +17,7 @@ Clone this repository in the desired place and check out the correct branch:
 
     git clone https://github.com/nurdanay/joeynmt-toy-models
     cd joeynmt-toy-models
-    git checkout ex5
+    git checkout Ex5
 
 Create a new virtualenv that uses Python 3. Please make sure to run this command outside of any virtual Python environment:
 
@@ -222,6 +222,6 @@ Change the beam size from configs/low_resource_bpe_level_2000.yaml
 
     ./scripts/graph_beam.py
 
-![alt text](beam_size_plot.png)
+![alt text](beam_size_graph/beam_size-plot.png)
 
-![alt text](beam_size_bar_chart.png)
+![alt text](beam_size_graph/beam_size_bar_chart.png)
