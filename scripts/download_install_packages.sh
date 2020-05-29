@@ -19,8 +19,10 @@ git clone https://github.com/bricksdont/joeynmt.git $tools/joeynmt
 pip install --upgrade torch==1.4.0
 
 
+
 # install subword-nmt for bpe model
 pip3 install subword-nmt
+
 
 # install Moses scripts for preprocessing
 
