@@ -13,8 +13,8 @@ data:
     #src_voc_limit: ?
     #trg_voc_limit: ?
     # or (= not both!) a file with a vocabulary built before starting the training:
-    src_vocab: "vocab/build_vocab_{vocab_size}.de-en"
-    trg_vocab: "vocab/build_vocab_{vocab_size}.de-en"
+    src_vocab: "vocab/build_vocab_3000.de-en"
+    trg_vocab: "vocab/build_vocab_3000.de-en"
 
 testing:
     beam_size: 3
